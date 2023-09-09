@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200;1,300;1,400&display=swap');
+
+
+body{
+  font-family: 'poppins', sans-serif;
+}
+
+.container{
+  max-width: 1280px;
+  margin:0 auto;
+}
+
+nav{
+  display:flex;
+  justify-content: space-between;
+  height: 72px;
+  align-items: center;
+}
+nav ul{
+  display: flex;
+  list-style: none;
+  gap:24px
+}
+
+button{
+  all:unset;
+  padding:6px,16px;
+  background: red;
+  height: 32px;
+  color: white;
+  font-weight: 500;
+  width: 70px;
+  height: 40px;
+  text-align: center;
+}
+
+.hero{
+  display: flex;
+  align-items: center;
+  height: 130vh
+}
+.hero-content{
+  flex-direction: column;
+  gap: 36px;
+}
+.hero h1{
+  font-weight: 700;
+  line-height: 102px;
+  font-size: 108px;
+}
+.hero p{
+  font-weight: 600px;
+  color: grey;
+}
+.hero-btn{
+  display: flex;
+  gap: 40px;
+  
+}
+.btn1{
+  width:28%;
+  font-size: 24px;
+}
+.btn2{
+  background: transparent;
+  color: grey;
+  border: 1px solid grey;
+  width: 28%;
+  font-size: 24px;
+}
+.shopping p{
+  font-size: 14px;
+  margin-bottom: 16px;
+  color: grey;
+  
+}
+.hero p{
+  font-weight: 600;
+  max-width: 400px;
+  color:grey;
+}
+
+.brand-icons{
+  display: flex;
+  gap: 16px;
+}
